@@ -1,3 +1,5 @@
+//Jaine Senna
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -37,3 +39,8 @@ int main()
   exit(0);
 
 }
+/*
+  Para compilar este programa salvo como "pthread_join.c"
+  $ gcc -lpthread pthread_join.c -o pthread_join
+  $ ./pthread_join
+*/
