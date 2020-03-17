@@ -41,6 +41,6 @@ int main()
 }
 /*
   Para compilar este programa salvo como "pthread_join.c"
-  $ gcc -lpthread pthread_join.c -o pthread_join
+  $ gcc -pthread pthread_join.c -o pthread_join
   $ ./pthread_join
 */
