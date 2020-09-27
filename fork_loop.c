@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int main(){
+int main()
+{
   int pid;
   printf("Meu número de processo é %d. Vou criar um processo filho.\n",getpid());
   pid = fork(); /* Chamada da primitiva fork */
@@ -21,3 +22,9 @@ int main(){
   }
   exit(0);
 }
+
+/*
+  Para compilar este programa salvo como "fork_loop.c"
+  $ gcc fork_loop.c -o fork_loop
+  $ ./fork_loop
+*/
