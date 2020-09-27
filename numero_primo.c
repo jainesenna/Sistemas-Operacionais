@@ -39,12 +39,12 @@ int main ()
   int primo;
   pthread_create (&thread, NULL,  &procurandonumeroprimo, &total);
   pthread_join (thread, (void*) &primo);
-  printf("\n\nO %do número primo é %d.\n", total, primo);
+  printf("\n\nO %d° número primo é %d.\n", total, primo);
   return 0;
 }
 
 /*
   Para compilar este programa salvo como "numeroprimo.c"
-  $ gcc -pthread numeroprimo.c -o numeroprimo
-  $ ./pthread_join
+  $ gcc -pthread numero_primo.c -o numero_primo
+  $ ./numero_primo
 */
