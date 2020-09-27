@@ -18,3 +18,9 @@ int main(){
     printf("Já esperei e vou embora...\n");
   };
 };
+
+/*
+  Para compilar este programa salvo como "fork_simples.c"
+  $ gcc fork_simples.c -o fork_simples
+  $ ./fork_simples
+*/
