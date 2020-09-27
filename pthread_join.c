@@ -9,9 +9,10 @@ void * minhathread(void * arg)
 {
   int i;
   printf("\t\tIniciando a thread.\n", arg);
-  printf("\t\tRecebi o argumento %s do processo pesado\n", arg);
+  printf("\t\tRecebi o argumento %p do processo pesado\n", arg);
   sleep(3);
 }
+
 int main()
 {
   int retcode;
