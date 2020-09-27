@@ -35,5 +35,5 @@ int main(void)
 /*
   Para compilar este programa salvo como "concorrentes.c"
   $ gcc -pthread concorrentes.c -o concorrentes
-  $ ./pthread_join
+  $ ./concorrentes
 */
