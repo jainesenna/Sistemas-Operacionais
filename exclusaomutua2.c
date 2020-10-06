@@ -43,7 +43,7 @@ int main ()
   pthread_create(&tid1, NULL, p1, NULL);
   pthread_join(tid0, NULL);
   pthread_join(tid1, NULL);
-  printf("O valor da variável conta é: %d\n", shared);
+  printf("O valor da variável shared é: %d\n", shared);
 }
 
 
